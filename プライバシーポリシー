@@ -1,13 +1,87 @@
-プライバシーポリシー
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プライバシーポリシー - dance-auto-post</title>
+    <style>
+        body {
+            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            color: #2c3e50;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #fe2c55; /* TikTokカラーを意識 */
+            padding-bottom: 10px;
+            font-size: 24px;
+        }
+        h2 {
+            font-size: 20px;
+            margin-top: 30px;
+            color: #444;
+        }
+        p, li {
+            font-size: 16px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .footer {
+            margin-top: 50px;
+            font-size: 14px;
+            color: #777;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>プライバシーポリシー</h1>
+        <p>「dance-auto-post」（以下、「当アプリ」といいます）は、ユーザーのプライバシーを尊重し、ユーザーの個人情報を保護するために細心の注意を払っています。本ポリシーでは、当アプリがTikTok APIを通じて取得する情報の取り扱いについて説明します。</p>
 
-本アプリケーション（以下「本アプリ」）は、利用者のプライバシー保護を重視し、以下の通り個人情報を取り扱います。
+        <h2>1. 取得する情報および取得方法</h2>
+        <p>当アプリは、TikTokの連携（OAuth認証）を通じて以下の情報を取得します。</p>
+        <ul>
+            <li>TikTokのアカウント識別子（ユーザーID）</li>
+            <li>プロフィール情報（表示名、アイコン画像等）</li>
+            <li>動画投稿に必要な権限（video.publish 等）</li>
+        </ul>
 
-1. 取得する情報 本アプリは、TikTok APIを通じて以下の情報を取得する場合があります。 ・TikTokのユーザー識別子 ・投稿に関連する動画データおよびテキスト情報
+        <h2>2. 情報の利用目的</h2>
+        <p>取得した情報は、以下の目的のためにのみ利用します。</p>
+        <ul>
+            <li>ユーザーの指示に基づく動画の自動投稿機能の提供</li>
+            <li>アプリ内でのアカウント情報の表示</li>
+            <li>サービスに関する重要なお知らせの通知</li>
+        </ul>
 
-2. 利用目的 取得した情報は、以下の目的のためにのみ利用します。 ・TikTokへの動画アップロードおよび下書き保存の実行
+        <h2>3. 情報の保存とセキュリティ</h2>
+        <p>当アプリは、自動投稿に必要なアクセストークンを暗号化された安全な環境で管理します。法令に基づく場合を除き、取得した情報をユーザーの同意なく第三者に提供することはありません。</p>
 
-3. データの第三者提供 本アプリは、法令に基づく場合を除き、取得した情報を本人の同意なく第三者に提供することはありません。
+        <h2>4. データの削除（Data Deletion）</h2>
+        <p>ユーザーはいつでも当アプリとの連携を解除することで、情報の提供を停止できます。また、TikTokの設定画面からアプリのアクセス権を取り消すことが可能です。アカウントに紐づくデータの完全な削除を希望される場合は、下記の問い合わせ先までご連絡ください。依頼を受理後、速やかにデータを削除いたします。</p>
 
-4. データの管理 取得したデータは、本アプリの動作に必要な期間のみ保持され、適切に管理されます。
+        <h2>5. 本ポリシーの変更</h2>
+        <p>当アプリは、必要に応じて本ポリシーを変更することがあります。変更した場合は、本ページにて公開します。</p>
 
-5. お問い合わせ 本ポリシーに関するお問い合わせは、本アプリの開発者までご連絡ください。
+        <h2>6. お問い合わせ先</h2>
+        <p>本ポリシーに関するお問い合わせは、GitHubのリポジトリ、または開発者の連絡先までお願いいたします。</p>
+
+        <div class="footer">
+            制定日：2026年2月4日<br>
+            dance-auto-post 開発チーム
+        </div>
+    </div>
+</body>
+</html>
