@@ -1,9 +1,23 @@
-利用規約
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プライバシーポリシー - [アプリ名]<dance-auto-post>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+        h1 { border-bottom: 2px solid #333; }
+    </style>
+</head>
+<body>
+    <h1>プライバシーポリシー</h1>
+    <p>本アプリケーションは、TikTok APIを利用してサービスを提供します。ユーザーのプライバシーを尊重し、以下のように取り扱います。</p>
+    
+    <h2>1. 取得する情報</h2>
+    <p>当アプリは、TikTok Loginを通じて、ユーザーの基本プロフィールおよび動画投稿に必要な権限を取得します。</p>
 
-本規約は、本アプリケーション（以下「本アプリ」）の利用条件を定めるものです。
+    <h2>2. 利用目的</h2>
+    <p>取得した情報は、動画の自動投稿機能およびサービス改善のためにのみ利用されます。</p>
 
-1. 利用目的 本アプリは、利用者が個人的にTikTokへの動画投稿および下書き保存を自動化するためのツールです。
-
-2. 禁止事項 利用者は、以下の行為を行わないものとします。 ・TikTokの利用規約に違反するコンテンツの投稿 ・他者の権利を侵害する行為 ・公序良俗に反する行為
-
-3. 免責事項 本アプリの利用により生じた損害やトラブルについて、開発者は一切の責任を負いません。本アプリは現状有姿で提供され、動作の完全性を保証するものではありません。
+    </body>
+</html>
